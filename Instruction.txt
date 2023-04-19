@@ -36,3 +36,5 @@ How to run and configure:
     Click "+Create new secret key" then copy the key. Paste it on "something" area.
 
 2. Save the file and start over again. 
+
+Youtube: https://youtu.be/CtzuhxyrAgM 
