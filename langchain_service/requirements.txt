@@ -1,0 +1,10 @@
+langchain
+pymysql
+pymssql
+openai
+PyPDF2
+faiss-cpu
+tiktoken
+pypdf
+chromadb
+flask

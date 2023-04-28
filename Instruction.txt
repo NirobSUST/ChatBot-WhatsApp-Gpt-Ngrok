@@ -16,12 +16,15 @@ How to run and configure:
     For example:
     https://02dc-103-72-212-242.ngrok-free.app/api/message
     Save it.
-
-8. In below; you will find "Sandbox Participants" block in above link where there is a number and a code given
+In below; you will find "Sandbox Participants" block in above link where there is a number and a code given
 (mostly the number will be +14155238886 and the code will be "join xyz-abc" something like that).
 
-9. Go to WhatsApp ; Save the number and send the code in chat. 
-10. That's it! Start asking questions.
+8. Open a new terminal. Change the path to 'langchain_sevice' folder.
+9. Install the requirements using 'pip install -r .\requirements.txt' command.
+10. run the python api by 'python api.py' command.
+
+11. Go to WhatsApp ; Save the number and send the code in chat. 
+12. That's it! Start asking questions.
     *** Ask only specific "Question".Nothing else (like Hi, wow, hlw etc).
 
 ---------------------- Blocker ---------------------------
