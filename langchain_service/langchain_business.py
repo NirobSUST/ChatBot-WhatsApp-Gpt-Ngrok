@@ -25,6 +25,13 @@ def count_tokens(agent, query):
 
         return result
 
+def preprocess(raw_string):
+  substrings = {"internet": "'internet'", "voice": "'voice'", "bundle": "'bundle'"}  
+  
+  for original, replacement in substrings.items():
+        if original in raw_string:
+            new_string = raw_string.replace(original, replacement)
+  return new_string
 
 def initiation():
     os.environ["OPENAI_API_KEY"] = config.open_ai_key
@@ -102,4 +109,5 @@ def initiation():
     return conversational_agent
 
 def run(text, conversational_agent):
-    return count_tokens(conversational_agent, text)
+    query=preprocess(text)
+    return count_tokens(conversational_agent, query)
